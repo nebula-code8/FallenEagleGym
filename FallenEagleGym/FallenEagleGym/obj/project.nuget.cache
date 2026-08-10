@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PUxDUhc6XNg=",
+  "success": true,
+  "projectFilePath": "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/FallenEagleGym/FallenEagleGym.csproj",
+  "expectedPackageFiles": [
+    "/home/nebula/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.10/microsoft.aspnetcore.app.ref.10.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}
