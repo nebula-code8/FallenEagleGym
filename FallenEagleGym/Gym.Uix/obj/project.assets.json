@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/FallenEagleGym/FallenEagleGym.csproj",
-      "projectName": "FallenEagleGym",
-      "projectPath": "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/FallenEagleGym/FallenEagleGym.csproj",
+      "projectUniqueName": "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/Gym.Uix/Gym.Uix.csproj",
+      "projectName": "Gym.Uix",
+      "projectPath": "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/Gym.Uix/Gym.Uix.csproj",
       "packagesPath": "/home/nebula/.nuget/packages/",
-      "outputPath": "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/FallenEagleGym/obj/",
+      "outputPath": "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/Gym.Uix/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/nebula/.nuget/NuGet/NuGet.Config"

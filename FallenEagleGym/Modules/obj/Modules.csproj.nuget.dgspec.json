@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/FallenEagleGym/FallenEagleGym.csproj": {}
+    "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/Modules/Modules.csproj": {}
   },
   "projects": {
-    "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/FallenEagleGym/FallenEagleGym.csproj": {
+    "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/Modules/Modules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/FallenEagleGym/FallenEagleGym.csproj",
-        "projectName": "FallenEagleGym",
-        "projectPath": "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/FallenEagleGym/FallenEagleGym.csproj",
+        "projectUniqueName": "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/Modules/Modules.csproj",
+        "projectName": "Modules",
+        "projectPath": "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/Modules/Modules.csproj",
         "packagesPath": "/home/nebula/.nuget/packages/",
-        "outputPath": "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/FallenEagleGym/obj/",
+        "outputPath": "/home/nebula/Projects/FallenEagleGym/FallenEagleGym/Modules/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/nebula/.nuget/NuGet/NuGet.Config"
