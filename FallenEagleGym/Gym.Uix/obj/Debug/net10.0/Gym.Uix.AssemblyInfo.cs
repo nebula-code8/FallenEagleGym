@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gym.Uix")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb2dc94af7f7cfe64963a86800dfcf482e141ff7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d1bd8e73c4903f971fb228719163438bdc589df")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gym.Uix")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gym.Uix")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
