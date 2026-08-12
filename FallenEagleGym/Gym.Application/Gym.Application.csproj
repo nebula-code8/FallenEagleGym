@@ -9,7 +9,18 @@
 
     <ItemGroup>
       <Folder Include="Domain\RepositoryInerfaces\" />
+      <Folder Include="Repositories\" />
       <Folder Include="Services\ServiceInterfaces\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="appsettings.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Npgsql" Version="10.0.3" />
     </ItemGroup>
 
 </Project>
