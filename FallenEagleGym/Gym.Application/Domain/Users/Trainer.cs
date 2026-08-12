@@ -4,9 +4,9 @@ namespace Gym.Application.Domain.Users;
 
 public class Trainer: User
 {
-    public string Specializations { get; set; }    
-    public string Biography { get; set; }
-    public List<string> Licenses { get; set; }
+    public string Specializations { get; private set; }    
+    public string Biography { get; private set; }
+    public List<string> Licenses { get; private set; }
 
     public Trainer(string name, string surname, Gender gender, DateOnly birthDate, string phoneNumber, string email,
         string password, string specializations, string biography, List<string> licenses)

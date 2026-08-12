@@ -4,16 +4,16 @@ namespace Gym.Application.Domain.Users;
 
 public class User
 {
-    public long Id { get; set; }
-    public string Name { get; set; }
-    public string Surname { get; set; }
-    public Gender Gender { get; set; }
-    public DateOnly BirthDate { get; set; }
-    public string PhoneNumber { get; set; }
-    public string Email { get; set; }
-    public string Password { get; set; }
-    public Role Role { get; set; }
-    public List<Rating> Ratings { get; set; }
+    public long Id { get; private set; }
+    public string Name { get; private set; }
+    public string Surname { get; private set; }
+    public Gender Gender { get; private set; } 
+    public DateOnly BirthDate { get; private set; }
+    public string PhoneNumber { get; private set; }
+    public string Email { get; private set; }
+    public string Password { get; private set; }
+    public Role Role { get; private set; }
+    public List<Rating> Ratings { get; private  set; }
 
     public User(long Id, string Name, string Surname, Gender Gender, DateOnly BirthDate, string PhoneNumber,
         string Email, string Password, Role Role)
