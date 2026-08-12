@@ -8,8 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Domain\RepositoryInerfaces\" />
-      <Folder Include="Repositories\" />
+      <Folder Include="Database\Repositories\Trainings\" />
       <Folder Include="Services\ServiceInterfaces\" />
     </ItemGroup>
 
