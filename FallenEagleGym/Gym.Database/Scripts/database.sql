@@ -1,0 +1,43 @@
+DROP TABLE IF EXISTS users CASCADE;
+DROP TABLE IF EXISTS clients CASCADE;
+DROP TABLE IF EXISTS licences CASCADE;
+DROP TABLE IF EXISTS trainers CASCADE;
+DROP TABLE IF EXISTS trainers_licences CASCADE;
+
+CREATE TABLE users (
+    id BIGINT NOT NULL PRIMARY KEY,
+    name VARCHAR(30) NOT NULL,
+    surname VARCHAR(30) NOT NULL,
+    gender INT NOT NULL,
+    birth_date DATE NOT NULL,
+    phone_number VARCHAR(30),
+    email VARCHAR(255) NOT NULL,
+    password VARCHAR(32) NOT NULL,
+    role INT NOT NULL DEFAULT 0
+);
+
+CREATE TABLE clients (
+    id BIGINT PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
+    height DOUBLE PRECISION NOT NULL,
+    weight DOUBLE PRECISION NOT NULL,
+    goal VARCHAR(200) NOT NULL,
+    training_location INT NOT NULL DEFAULT 0,
+    health_problems VARCHAR(100)
+);
+
+CREATE TABLE trainers (
+    id BIGINT PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
+    specialization VARCHAR(100) NOT NULL,
+    biography TEXT NOT NULL
+);
+
+CREATE TABLE licences (
+    id BIGINT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE trainers_licences (
+    trainer_id BIGINT REFERENCES trainers(id) ON DELETE CASCADE,
+    licence_id BIGINT REFERENCES licences(id) ON DELETE CASCADE,
+    photo VARCHAR(64) NOT NULL
+);
