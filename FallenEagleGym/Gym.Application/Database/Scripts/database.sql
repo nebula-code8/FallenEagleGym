@@ -3,6 +3,7 @@ DROP TABLE IF EXISTS clients CASCADE;
 DROP TABLE IF EXISTS licences CASCADE;
 DROP TABLE IF EXISTS trainers CASCADE;
 DROP TABLE IF EXISTS trainers_licences CASCADE;
+DROP TABLE IF EXISTS user_ratings CASCADE;
 
 CREATE TABLE users (
     id BIGINT NOT NULL PRIMARY KEY,
@@ -40,4 +41,11 @@ CREATE TABLE trainers_licences (
     trainer_id BIGINT REFERENCES trainers(id) ON DELETE CASCADE,
     licence_id BIGINT REFERENCES licences(id) ON DELETE CASCADE,
     photo VARCHAR(64) NOT NULL
+);
+
+CREATE TABLE user_ratings (
+    giver_id BIGINT REFERENCES users(id) ON DELETE CASCADE,
+    taker_id BIGINT REFERENCES users(id) ON DELETE CASCADE,
+    grade DECIMAL(2, 1),
+    comment_ VARCHAR(255)
 );
